@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rootView"
+    android:background="@drawable/background" >
+
+    <LinearLayout
+        android:id="@+id/layout_preview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/dashboard"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/iv_preview"
+            android:layout_width="fill_parent"
+            android:layout_height="300dip"
+            android:adjustViewBounds="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dashboard"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/dashboard"
+        android:weightSum="1" >
+
+        <!-- Send SMS Button -->
+
+        <Button
+            android:id="@+id/btn_ss1"
+            style="@style/DashboardButton"
+            android:layout_weight=".25"
+            android:drawableTop="@drawable/ic_pic"
+            android:text="@string/ss1" />
+
+        <Button
+            android:id="@+id/btn_ss2"
+            style="@style/DashboardButton"
+            android:layout_weight=".25"
+            android:drawableTop="@drawable/ic_pic"
+            android:text="@string/ss2" />
+
+        <Button
+            android:id="@+id/btn_wall"
+            style="@style/DashboardButton"
+            android:layout_weight=".25"
+            android:drawableTop="@drawable/ic_background"
+            android:text="@string/wallpaper" />
+
+        <Button
+            android:id="@+id/btn_save"
+            style="@style/DashboardButton"
+            android:layout_weight=".25"
+            android:drawableTop="@drawable/ic_save"
+            android:text="@string/save" />
+    </LinearLayout>
+
+
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/loading"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:adjustViewBounds="true"
+            android:layout_alignParentRight="true"
+            android:src="@anim/animasi" />
+
+        
+
+
+</RelativeLayout>

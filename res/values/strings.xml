@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HiShoot 2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="app_id">378540475562874</string>
+    <string name="ss1">Screenshot 1</string>
+    <string name="ss2">Screenshot 2</string>
+    <string name="wallpaper">Wallpaper</string>
+    <string name="save">Save</string>
+    <string name="chooser">Choose image for %s</string>
+    <string name="about">write by :\n\t\tjmkl\n\t\tjimikill3d@gmail.com\n\nAndroid Ranah Minang Dev. Team\nhttp://androidminang.com\n</string>
+    
+    
+
+</resources>

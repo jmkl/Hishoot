@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <android.support.v4.view.ViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/viewpejer"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1" >
+
+        <Button
+            android:layout_weight=".5"
+            android:id="@+id/reset"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Reset to Default" />
+
+        <Button
+            android:layout_weight=".5"
+            android:id="@+id/apply_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Apply" />
+    </LinearLayout>
+
+</RelativeLayout>
